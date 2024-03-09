@@ -26,10 +26,7 @@ export const metadata = {
 	},
 	icons: [
 		{
-			url: "../public/favicon.ico",
-			rel: "icon",
-			sizes: "any",
-			type: "image/svg+xml",
+			url: "https://github.com/Abdulzizi.png",
 		},
 	]
 };
