@@ -34,7 +34,7 @@ const UserText = async ({ promise }) => {
 	const user = await promise;
 
 	return (
-		<p>Hi, my name is {user.name || data.displayName}{'. '}{user.bio}</p>
+		<p>Hiii, my name is {user.	name || data.displayName}{'. '}{user.bio}</p>
 	);
 };
 
@@ -44,7 +44,7 @@ const TryYourself = ({ customUsername }) => {
 
 	return <Link
 		href={href}
-		className="text-lg duration-500 text-zinc-500 hover:text-zinc-300 border-dashed p-2 rounded border-2 border-zinc-500 hover:border-zinc-300"
+		className="text-lg duration-500 text-zinc-500 hover:text-zinc-300 border-solid	 p-2 rounded border-2 border-zinc-500 hover:border-zinc-300"
 	>
 		{
 			customUsername ? 'Showing: ' + customUsername + ', click to cancel ❌' : 'Try yourself'
